@@ -1,0 +1,30 @@
+@keyframes pulseLogo {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 12px #4bd1ac99;
+  }
+
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px #4bd1ace6;
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 12px #4bd1ac99;
+  }
+}
+
+.logo-pill {
+  color: #fff;
+  background: linear-gradient(to right, #49c9af, #7be495);
+  border-radius: 999px;
+  padding: 12px 32px;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  animation: 2s infinite pulseLogo;
+  display: inline-block;
+  box-shadow: 0 0 12px #4bd1ac99;
+}
+/*# sourceMappingURL=pharmacy-app-clean.9f367d21.css.map */
